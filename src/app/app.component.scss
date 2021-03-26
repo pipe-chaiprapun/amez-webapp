@@ -27,43 +27,33 @@
     /* Needed to position the navbar */
     position: relative;
 }
-
-.embed-responsive {
-    position: relative;
+.before-after {
+        border-radius: 30px;
+        img {
+            border-radius: 30px;
+        }
+}
+.time-line-img {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-
-    .embed-responsive-item,
-    iframe,
-    embed,
-    object,
-    video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        border: 0;
-    }
 }
-
-// Modifier class for 16:9 aspect ratio
-.embed-responsive-16by9 {
-    padding-bottom: 56.25%;
-    // padding: 50%;
+.poster-img {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
-
-// Modifier class for 4:3 aspect ratio
-.embed-responsive-4by3 {
-    padding-bottom: 75%;
+.product-price-1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
 }
-
-@media (max-width: 576px){
-    .col-xs{
-        flex: 0 0 auto;
-        width: 70%;
-    }
+.product-price-2 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
 }
