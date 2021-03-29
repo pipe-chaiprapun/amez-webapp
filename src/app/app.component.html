@@ -5,7 +5,7 @@
         <!-- <li class="nav-item">
           <a class="nav-link active text-light" href="#">หน้าหลัก</a>
         </li> -->
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link text-light" href="#">วิธีใช้</a>
         </li>
         <li class="nav-item">
@@ -13,15 +13,16 @@
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#">สั่งซื้อ</a>
-        </li>
+        </li> -->
       </ul>
       <img src="/assets/Images/header.PNG" class="header-image" alt="...">
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3">
-      <p class='promote-text-1 text-center mb-0' style="color:steelblue">AMEZ HAIR SERUM ผลิตภัณฑ์ปลูกผมอันดับ 1 ณ
-        เวลานี้</p>
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2">
+      <img src="/assets/Images/wording/wording1.png" class='wording' alt="...">
+      <!-- <p class='promote-text-1 text-center mb-0' style="color:steelblue">AMEZ HAIR SERUM ผลิตภัณฑ์ปลูกผมอันดับ 1 ณ
+        เวลานี้</p> -->
     </div>
   </div>
   <div class="row justify-content-center">
@@ -32,7 +33,7 @@
   </div>
   <div class="row justify-content-center">
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3">
-      <p class='promote-text-1 text-center mb-2 text-dark'>หรือถ้าหากคุณต้องการไว้หนวด เครา คิ้ว จอน</p>
+      <p class='promote-text-2 text-center mb-2 text-dark'>หรือถ้าหากคุณต้องการไว้หนวด เครา คิ้ว จอน</p>
       <!-- <div class='row justify-content-center'> -->
       <!-- <div class='col-md-10 col-lg-10 col-xl-10 col-xs'> -->
       <div class='col-12'>
@@ -54,71 +55,97 @@
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='overflow-x: hidden;background-color: darkslategray;'>
+    <div class='col-md-8 col-lg-8 col-xl-8 px-0' style='overflow-x: hidden;'>
+      <div class='border-block'>
+        <img src="/assets/Images/rectanger/rec1.png" class="header-image" alt="...">
+        <p class='text-center mb-0' style="color: white;">คุณสมบัติพิเศษของผลิตภัณฑ์อะเมซแฮร์เซรั่ม และ
+          อะเมซแฮร์โรเลอร์</p>
+      </div>
+
+    </div>
+    <!-- <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='overflow-x: hidden;background-color: darkslategray;'>
       <p class='promote-text-1 text-center mb-0' style="color: white;">คุณสมบัติพิเศษของผลิตภัณฑ์อะเมซแฮร์เซรั่ม และ
         อะเมซแฮร์โรเลอร์</p>
-    </div>
+    </div> -->
   </div>
   <div class="row justify-content-center">
     <div class="col-md-8 col-lg-8 col-xl-8 px-0">
-      <img src="/assets/Images/benefit.PNG" class="header-image" alt="...">
+      <img src="/assets/Images/properties/properties.PNG" class="header-image" alt="...">
+      <!-- <img src="/assets/Images/benefit.PNG" class="header-image" alt="..."> -->
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2 bg-dark" style='overflow-x: hidden;'>
-      <p class='promote-text-1 text-center mb-0 marquee' style="color: steelblue;">ปลูกผม หนวด เครา คิ้ว จอน
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='overflow-x: hidden;background-color: black;'>
+      <!-- <p class='promote-text-1 text-center mb-0 marquee' style="color: steelblue;">ปลูกผม หนวด เครา คิ้ว จอน
+        ผลลัพธ์ที่เห็นได้อย่างชัดเจน</p> -->
+      <p class='promote-text-2 text-center mb-0'>ปลูกผม หนวด เครา คิ้ว จอน
         ผลลัพธ์ที่เห็นได้อย่างชัดเจน</p>
     </div>
   </div>
   <div class="row justify-content-center">
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3" style="background-color: rgba(0,0,0,.03);">
-      <p class='promote-text-1 text-center mb-2 text-dark'>ผลลัพธ์จากผู้ใช้งานจริง</p>
+      <img src="/assets/Images/wording/wording2.png" class='wording-image' alt="...">
+      <!-- <p class='promote-text-1 text-center mb-2 text-dark'>ผลลัพธ์จากผู้ใช้งานจริง</p> -->
       <div class='px-4'>
-        <carousel>
+        <carousel [showIndicators]="false">
           <slide>
-            <div class='card before-after'>
-              <img src="/assets/Images/beforeAfter/1.PNG" alt="first slide" style="display: block; width: 100%;">
-            </div>
+            <!-- <div class='card before-after'> -->
+            <img src="/assets/Images/beforeAfter/1.PNG" alt="first slide" style="display: block; width: 100%;">
+            <!-- </div> -->
           </slide>
           <slide>
-            <div class='card before-after'>
-              <img src="/assets/Images/beforeAfter/2.PNG" alt="first slide" style="display: block; width: 100%;">
-            </div>
+            <!-- <div class='card before-after'> -->
+            <img src="/assets/Images/beforeAfter/2.PNG" alt="first slide" style="display: block; width: 100%;">
+            <!-- </div> -->
           </slide>
           <slide>
-            <div class='card before-after'>
-              <img src="/assets/Images/beforeAfter/3.PNG" alt="first slide" style="display: block; width: 100%;">
-            </div>
+            <!-- <div class='card before-after'> -->
+            <img src="/assets/Images/beforeAfter/3.PNG" alt="first slide" style="display: block; width: 100%;">
+            <!-- </div> -->
           </slide>
           <slide>
-            <div class='card before-after'>
-              <img src="/assets/Images/beforeAfter/4.PNG" alt="first slide" style="display: block; width: 100%;">
-            </div>
+            <!-- <div class='card before-after'> -->
+            <img src="/assets/Images/beforeAfter/4.PNG" alt="first slide" style="display: block; width: 100%;">
+            <!-- </div> -->
           </slide>
           <slide>
-            <div class='card before-after'>
-              <img src="/assets/Images/beforeAfter/5.PNG" alt="first slide" style="display: block; width: 100%;">
-            </div>
+            <!-- <div class='card before-after'> -->
+            <img src="/assets/Images/beforeAfter/5.PNG" alt="first slide" style="display: block; width: 100%;">
+            <!-- </div> -->
           </slide>
         </carousel>
       </div>
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3">
-      <p class='promote-text-1 text-center mb-2 text-dark'>อย่าเพิ่งหมดหวังถ้าคุณยังไม่ได้ลอง..!</p>
-      <img class='time-line-img' src="/assets/Images/timeline.PNG" alt="...">
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2">
+      <p class='promote-text-3 text-center mb-0 text-dark'>อย่าเพิ่งหมดหวังถ้าคุณยังไม่ได้ลอง..!</p>
+      <img class='time-line-img' src="/assets/Images/timeline2.PNG" alt="...">
     </div>
   </div>
   <div class="row justify-content-center">
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='overflow-x: hidden;background-color: #1DADDA'>
-      <p class='text-center mb-0' style="color: white;font-size: x-large;border-radius: 30px;">สั่งซื้อง่ายๆผ่าน LINE
-        <button type="button" class="btn btn-success"
-          style='margin-bottom: 6px;border-color: white;'>สอบถามราคา</button>
+      <p class='text-center mb-0'>
+        <!-- <span class='text-white ask-label'></span> -->
+        <!-- <button type="button" class="btn btn-success ask-btn">สอบถามราคา</button> -->
+        <img src="/assets/Images/button/label1.png" alt="..." style="width: 40%;">
+        <img src="/assets/Images/button/button1.png" alt="..." style='margin-top:10px;width:40%;'>
       </p>
     </div>
   </div>
   <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-0">
+      <img class='wording-step-image' src="/assets/Images/wording/wording3.png" alt="...">
+    </div>
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-0">
+      <img class='wording-step-image-2' src="/assets/Images/wording/wording4.png" alt="...">
+    </div>
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 pt-3">
+      <img class='step-img' src="/assets/Images/step/roller1.png" alt="...">
+    </div>
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 pt-0 pb-4">
+      <img class='step-img' src="/assets/Images/step/serum1.png" alt="...">
+    </div>
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3">
       <img class='poster-img' src="/assets/Images/poster/poster1.png" alt="...">
     </div>
@@ -134,8 +161,11 @@
   </div>
   <div class="row justify-content-center">
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='overflow-x: hidden;background-color: #1DADDA'>
-      <p class='text-center mb-0' style="color: white;font-size: x-large;border-radius: 30px;">สอบถามข้อมูลได้ตลอด
-        <button type="button" class="btn btn-success" style='margin-bottom: 6px;border-color: white;'>สอบถาม</button>
+      <p class='text-center mb-0'>
+        <span class='text-white ask-label'>สอบถามข้อมูลได้ตลอด 24 ช.ม.</span>
+        <!-- <button type="button" class="btn btn-success ask-btn">สอบถาม</button> -->
+        <!-- <img src="/assets/Images/button/label2.png" alt="..."> -->
+        <img src="/assets/Images/button/button2.png" alt="..." style='width: 40%;'>
       </p>
     </div>
   </div>
@@ -150,49 +180,91 @@
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8 col-xl-8" style="background-color: #1483A3;">
+    <div class="col-md-8 col-lg-8 col-xl-8 pb-4" style="background-color: #104756;">
+      <!-- #1483A3 -->
       <div class='row justify-content-center'>
         <div style="width: 100%;height: 30px;background-color: #1FAAD1;">
         </div>
         <div style="background-color: #1FAAD1;border-radius: 40px;width: 30%;margin-top: -30px;">
-          <h1 class='text-white text-center'>ราคา</h1>
+          <h1 class='text-white text-center mb-0'>ราคา</h1>
         </div>
       </div>
       <div class='row justify-content-center'>
-        <div class="card-deck px-4 py-2">
+        <div class='col-md-6 col-sm-6 col-6'>
+          <img class='product-price' src="assets/Images/productPrice/roller_title.png">
+          <img class='product-price' src="assets/Images/productPrice/roller_detail.png">
+        </div>
+        <div class='col-md-6 col-sm-6 col-6'>
+          <img class='product-price' src="assets/Images/productPrice/serum_title.png">
+          <img class='product-price' src="assets/Images/productPrice/serum_detail.png">
+        </div>
+        <!-- <div class='col-md-12'> -->
+        <!-- <div class="row">
+            <div class="col-md-6">
+              <img class='w-100' src="assets/Images/productPrice/roller_title.png">
+            </div>
+            <div class="col-md-6">
+              <img class='w-100' src="assets/Images/productPrice/serum_title.png">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <img class='w-100' src="assets/Images/productPrice/roller_detail.png">
+            </div>
+            <div class="col-md-6">
+              <img class='w-100' src="assets/Images/productPrice/serum_detail.png">
+            </div>
+          </div> -->
+        <!-- </div> -->
+        <!-- <div class="card-deck px-4 py-2">
           <div class="card">
-            <img class="card-img-top product-price-1" src="/assets/Images/productPrice/product_price1.PNG" alt="AMEZ HAIR ROLLER">
+            <img class="card-img-top product-price-1" src="/assets/Images/productPrice/product_price1.PNG"
+              alt="AMEZ HAIR ROLLER">
             <div class="card-body">
               <h5 class="card-title">AMEZ HAIR ROLLER</h5>
               <p class="card-text">เครื่องนวดกระตุ้นเส้นผมและรากขน</p>
             </div>
             <div class="card-footer">
               <h5 class='m-0'>ราคา 990 บาท</h5>
-              <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top product-price-2" src="/assets/Images/productPrice/product_price2.PNG" alt="AMEZ HAIR SERUM">
+            <img class="card-img-top product-price-2" src="/assets/Images/productPrice/product_price2.PNG"
+              alt="AMEZ HAIR SERUM">
             <div class="card-body">
               <h5 class="card-title">AMEZ HAIR SERUM</h5>
               <p class="card-text">เซรั่มปลูกผม หนวด เครา คิ้ว จอน</p>
             </div>
             <div class="card-footer">
               <h5 class='m-0'>ราคา 2,680 บาท</h5>
-              <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
             </div>
           </div>
-        </div>
-        <!-- <div class='col-md-6 col-lg-6 col-xl-6'>
-          <h4 class='text-center text-white mb-0'>AMEZ HAIR ROLLER</h4>
-          <h5 class='text-center text-white'>เครื่องนวดกระตุ้นเส้นผมและรากขน</h5>
-        </div>
-        <div class='col-md-6 col-lg-6 col-xl-6'>
-          <h4 class="text-center text-white mb-0">AMEZ HAIR SERUM</h4>
-          <h5 class='text-center text-white'>เซรั่มปลูกผม หนวด เครา คิ้ว จอน</h5>
         </div> -->
       </div>
     </div>
   </div>
-</div>
-<router-outlet></router-outlet>
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='overflow-x: hidden;background-color: #1DADDA'>
+      <!-- <p class='text-center mb-0'><span class='text-white ask-label'>PROMOTION</span>
+      </p> -->
+      <h1 class='text-center mb-0 text-white'>PROMOTION</h1>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='background-color: rgba(0,0,0,.03);'>
+      <img class='promotion-label-1' src="/assets/Images/promotion/label1.png" alt="...">
+    </div>
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3" style='background-color: rgba(0,0,0,.03);'>
+      <img class='promotion-image' src="/assets/Images/promotion/promotion1.png" alt="...">
+    </div>
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3" style='background-color: rgba(0,0,0,.03);'>
+      <img class='promotion-image' src="/assets/Images/promotion/promotion2.png" alt="...">
+    </div>
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3" style='background-color: rgba(0,0,0,.03);'>
+      <img class='promotion-image' src="/assets/Images/promotion/promotion3.png" alt="...">
+    </div>
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='background-color: rgba(0,0,0,.03);'>
+      <img class='promotion-label-1' src="/assets/Images/promotion/label2.png" alt="...">
+    </div>
+  </div>
+  <router-outlet></router-outlet>
