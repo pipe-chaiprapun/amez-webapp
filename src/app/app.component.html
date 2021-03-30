@@ -128,7 +128,8 @@
         <!-- <span class='text-white ask-label'></span> -->
         <!-- <button type="button" class="btn btn-success ask-btn">สอบถามราคา</button> -->
         <img src="/assets/Images/button/label1.png" alt="..." style="width: 40%;">
-        <img class='btn-contact btn' src="/assets/Images/button/button1.png" alt="..." style='margin-top:10px;width:40%;'>
+        <img class='btn-contact btn' src="/assets/Images/button/button1.png" alt="..."
+          style='margin-top:10px;width:40%;'>
       </p>
     </div>
   </div>
@@ -144,7 +145,7 @@
       <!-- <img id='roller2' class='step-img btn' src="/assets/Images/step/roller2.png" alt="..." (click)='changeRollerImg()'> -->
     </div>
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 pt-0 pb-4">
-      <img id='serum' class='step-img btn' [src]="serumImg" (click)='changeSerumImg()' alt="..." >
+      <img id='serum' class='step-img btn' [src]="serumImg" (click)='changeSerumImg()' alt="...">
       <!-- <img class='step-img btn d-none' src="/assets/Images/step/serum2.png" alt="..." (click)='serum = !serum'> -->
     </div>
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3">
@@ -181,14 +182,18 @@
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8 col-xl-8 pb-4" style="background-color: #104756;">
+    <div class="col-md-8 col-lg-8 col-xl-8 pb-4 bg-price">
+      <!-- <img  src="assets/Images/productPrice/bg_title.png"> -->
+      <!-- style="background-color: #104756;" -->
       <!-- #1483A3 -->
       <div class='row justify-content-center'>
+        <!-- <div class='bg-price-title'></div> -->
         <div style="width: 100%;height: 30px;background-color: #1FAAD1;">
         </div>
         <div style="background-color: #1FAAD1;border-radius: 40px;width: 30%;margin-top: -30px;">
           <h1 class='text-white text-center mb-0'>ราคา</h1>
         </div>
+        <!--  -->
       </div>
       <div class='row justify-content-center'>
         <div class='col-md-6 col-sm-6 col-6'>
@@ -199,81 +204,46 @@
           <img class='product-price' src="assets/Images/productPrice/serum_title.png">
           <img class='product-price' src="assets/Images/productPrice/serum_detail.png">
         </div>
-        <!-- <div class='col-md-12'> -->
-        <!-- <div class="row">
-            <div class="col-md-6">
-              <img class='w-100' src="assets/Images/productPrice/roller_title.png">
-            </div>
-            <div class="col-md-6">
-              <img class='w-100' src="assets/Images/productPrice/serum_title.png">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <img class='w-100' src="assets/Images/productPrice/roller_detail.png">
-            </div>
-            <div class="col-md-6">
-              <img class='w-100' src="assets/Images/productPrice/serum_detail.png">
-            </div>
-          </div> -->
-        <!-- </div> -->
-        <!-- <div class="card-deck px-4 py-2">
-          <div class="card">
-            <img class="card-img-top product-price-1" src="/assets/Images/productPrice/product_price1.PNG"
-              alt="AMEZ HAIR ROLLER">
-            <div class="card-body">
-              <h5 class="card-title">AMEZ HAIR ROLLER</h5>
-              <p class="card-text">เครื่องนวดกระตุ้นเส้นผมและรากขน</p>
-            </div>
-            <div class="card-footer">
-              <h5 class='m-0'>ราคา 990 บาท</h5>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top product-price-2" src="/assets/Images/productPrice/product_price2.PNG"
-              alt="AMEZ HAIR SERUM">
-            <div class="card-body">
-              <h5 class="card-title">AMEZ HAIR SERUM</h5>
-              <p class="card-text">เซรั่มปลูกผม หนวด เครา คิ้ว จอน</p>
-            </div>
-            <div class="card-footer">
-              <h5 class='m-0'>ราคา 2,680 บาท</h5>
-            </div>
-          </div>
-        </div> -->
+
       </div>
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='overflow-x: hidden;background-color: #1DADDA'>
+    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2 border-2">
+      <!-- style='overflow-x: hidden;background-color: #1DADDA' -->
       <!-- <p class='text-center mb-0'><span class='text-white ask-label'>PROMOTION</span>
       </p> -->
+      <!-- <div class='border-3'> -->
       <h1 class='text-center mb-0 text-white'>PROMOTION</h1>
+      <!-- </div> -->
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='background-color: rgba(0,0,0,.03);'>
-      <img class='promotion-label-1' src="/assets/Images/promotion/label1.png" alt="...">
+    <div class='col-md-8 col-lg-8 col-xl-8 bg-promotion py-4'>
+      <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2 promotion-item">
+        <img class='promotion-label-1' src="/assets/Images/promotion/label1.png" alt="...">
+      </div>
+      <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3 promotion-item">
+        <img class='promotion-image' src="/assets/Images/promotion/promotion1.png" alt="...">
+      </div>
+      <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3 promotion-item">
+        <img class='promotion-image' src="/assets/Images/promotion/promotion2.png" alt="...">
+      </div>
+      <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3 promotion-item">
+        <img class='promotion-image' src="/assets/Images/promotion/promotion3.png" alt="...">
+      </div>
+      <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2 promotion-item">
+        <img class='promotion-label-1' src="/assets/Images/promotion/label2.png" alt="...">
+      </div>
     </div>
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3" style='background-color: rgba(0,0,0,.03);'>
-      <img class='promotion-image' src="/assets/Images/promotion/promotion1.png" alt="...">
-    </div>
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3" style='background-color: rgba(0,0,0,.03);'>
-      <img class='promotion-image' src="/assets/Images/promotion/promotion2.png" alt="...">
-    </div>
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3" style='background-color: rgba(0,0,0,.03);'>
-      <img class='promotion-image' src="/assets/Images/promotion/promotion3.png" alt="...">
-    </div>
-    <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-2" style='background-color: rgba(0,0,0,.03);'>
-      <img class='promotion-label-1' src="/assets/Images/promotion/label2.png" alt="...">
-    </div>
+    <!-- rgba(0,0,0,.03); -->
   </div>
   <div class="row justify-content-center">
     <div class='col-md-8 col-lg-8 col-xl-8 px-0' style='overflow-x: hidden;'>
-      <div class='border-block'>
-        <img src="/assets/Images/rectanger/rec2.png" class="w-100" alt="..." style='height: 60px;'>
+      <div class='border-3'>
+        <!-- <img src="/assets/Images/rectanger/rec2.png" class="w-100" alt="..." style='height: 60px;'> -->
         <p class='text-center mb-0' style="color: white;">ต่อสายตรงโทร. 092-635-1688
-          <img class='btn-contact btn' src="/assets/Images/button/button3.png" alt="..." style='width: 30%;margin-top:1%'>
+          <img class='btn-contact btn' src="/assets/Images/button/button3.png" alt="...">
         </p>
       </div>
     </div>
