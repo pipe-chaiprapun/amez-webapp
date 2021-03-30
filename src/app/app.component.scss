@@ -67,6 +67,13 @@
             font-size: medium;
         }
     }
+    //  {
+    //     position: absolute;
+    //     top: 50%;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+    //     // width: 100%;
+    // }
 }
 .price-block {
     position: relative;
@@ -161,14 +168,14 @@
     margin-right: auto;
     display: block;
     @media (min-width: 992px) {
-        width:70%;
+        width: 70%;
     }
     @media (max-width: 575.98px) {
-        width:80%;
+        width: 80%;
     }
 }
-.btn-contact{
-    padding:0;
+.btn-contact {
+    padding: 0;
 }
 .collapse {
     visibility: collapse;
