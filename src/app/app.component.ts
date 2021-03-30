@@ -26,24 +26,33 @@ export class AppComponent implements OnInit {
 
   changeRollerImg() {
     this.roller = !this.roller;
+    this.rollerImg = this.roller ? '/assets/Images/step/roller1.png' : '/assets/Images/step/roller2.png';
+    // const image = new Image();
+    // image.id = '#roller';
+    // image.src = this.roller ? '/assets/Images/step/roller1.png' : '/assets/Images/step/roller2.png';
+    // // image.onload = () => {
+    // //   $('#roller').fadeOut(1000, () => {
+    // //     this.rollerImg = this.roller ? '/assets/Images/step/roller1.png' : '/assets/Images/step/roller2.png';
+    // //   }).fadeIn(1000);
+    // // };
 
-    // if (this.roller) {
-    //   $('#roller2').fadeOut(500, () => {
-    //     $('#roller1').fadeIn(500);
-    //   });
-    // } else {
-    //   $('#roller1').fadeOut(500, () => {
-    //     $('#roller2').fadeIn(500);
-    //   });
-    // }
-    $('#roller').fadeOut(1000, () => {
-      this.rollerImg = this.roller ? '/assets/Images/step/roller1.png' : '/assets/Images/step/roller2.png';
-    }).fadeIn(1000);
+    // $('#roller').fadeOut(1000, () => {
+    //   this.rollerImg = this.roller ? '/assets/Images/step/roller1.png' : '/assets/Images/step/roller2.png';
+    //   $('#roller').on('load', () => {
+    //     console.log('loaded');
+    //   }).fadeIn(1000);
+    // });
+
+
+    // $('#roller').fadeOut(1000, () => {
+    //   this.rollerImg = this.roller ? '/assets/Images/step/roller1.png' : '/assets/Images/step/roller2.png';
+    // }).fadeIn(1000);
   }
   changeSerumImg() {
     this.serum = !this.serum;
-    $('#serum').fadeOut(1000, () => {
-      this.serumImg = this.serum ? '/assets/Images/step/serum1.png' : '/assets/Images/step/serum2.png';
-    }).fadeIn(1000);
+    this.serumImg = this.serum ? '/assets/Images/step/serum1.png' : '/assets/Images/step/serum2.png';
+    // $('#serum').fadeOut(1000, () => {
+    //   this.serumImg = this.serum ? '/assets/Images/step/serum1.png' : '/assets/Images/step/serum2.png';
+    // }).fadeIn(1000);
   }
 }
