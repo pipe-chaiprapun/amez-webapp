@@ -197,10 +197,12 @@
 }
 .border-2 {
     background-image: url('../assets/Images/rectanger/rec3.png');
+    // border-radius: 5px;
     background-position: center;
 }
 .border-3 {
     background-image: url('../assets/Images/rectanger/rec2.png');
+    border-radius: 5px;
     p{
         @media (min-width: 992px) {
             font-size: xx-large;
@@ -213,4 +215,19 @@
         margin-top: 2%;
         width:36%;
     }
+}
+.contact-line {
+    background-image: url('../assets/Images/contact/bg_line.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: contain;
+    padding: 1rem;
+}
+.contact-facebook{
+    background-image: url('../assets/Images/contact/facebook.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: contain;
 }
