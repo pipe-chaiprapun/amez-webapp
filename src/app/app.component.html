@@ -129,7 +129,7 @@
         <!-- <span class='text-white ask-label'></span> -->
         <!-- <button type="button" class="btn btn-success ask-btn">สอบถามราคา</button> -->
         <img src="/assets/Images/button/label1.png" alt="..." style="width: 40%;">
-        <img src="/assets/Images/button/button1.png" alt="..." style='margin-top:10px;width:40%;'>
+        <img class='btn-contact btn' src="/assets/Images/button/button1.png" alt="..." style='margin-top:10px;width:40%;'>
       </p>
     </div>
   </div>
@@ -141,10 +141,12 @@
       <img class='wording-step-image-2' src="/assets/Images/wording/wording4.png" alt="...">
     </div>
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 pt-3">
-      <img class='step-img' src="/assets/Images/step/roller1.png" alt="...">
+      <img id='roller' class='step-img btn' [src]="rollerImg" alt="..." (click)='changeRollerImg()'>
+      <!-- <img id='roller2' class='step-img btn' src="/assets/Images/step/roller2.png" alt="..." (click)='changeRollerImg()'> -->
     </div>
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 pt-0 pb-4">
-      <img class='step-img' src="/assets/Images/step/serum1.png" alt="...">
+      <img id='serum' class='step-img btn' [src]="serumImg" (click)='changeSerumImg()' alt="..." >
+      <!-- <img class='step-img btn d-none' src="/assets/Images/step/serum2.png" alt="..." (click)='serum = !serum'> -->
     </div>
     <div class="col-md-8 col-lg-8 col-xl-8 px-0 py-3">
       <img class='poster-img' src="/assets/Images/poster/poster1.png" alt="...">
@@ -165,7 +167,7 @@
         <span class='text-white ask-label'>สอบถามข้อมูลได้ตลอด 24 ช.ม.</span>
         <!-- <button type="button" class="btn btn-success ask-btn">สอบถาม</button> -->
         <!-- <img src="/assets/Images/button/label2.png" alt="..."> -->
-        <img src="/assets/Images/button/button2.png" alt="..." style='width: 40%;'>
+        <img class='btn-contact btn' src="/assets/Images/button/button2.png" alt="..." style='width: 35%;'>
       </p>
     </div>
   </div>

@@ -160,5 +160,16 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    @media (min-width: 992px) {
+        width:70%;
+    }
+    @media (max-width: 575.98px) {
+        width:80%;
+    }
 }
-
+.btn-contact{
+    padding:0;
+}
+.collapse {
+    visibility: collapse;
+}
