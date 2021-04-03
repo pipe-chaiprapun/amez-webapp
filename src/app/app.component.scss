@@ -223,6 +223,9 @@
     text-align: center;
     background-size: contain;
     padding: 1rem;
+    img{
+        width:60%;
+    }
 }
 .contact-facebook{
     background-image: url('../assets/Images/contact/facebook.png');
@@ -230,4 +233,18 @@
     background-position: center;
     text-align: center;
     background-size: contain;
+}
+.copy-right {
+    @media (min-width: 992px) {
+        font-size: larger;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 0.7rem;
+    }
+    color:white;
+    margin:0;
+    text-align: center;
+    .contact-link{
+        color:#00B7FF;
+    }
 }
