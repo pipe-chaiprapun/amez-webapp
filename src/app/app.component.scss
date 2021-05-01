@@ -102,6 +102,20 @@
         font-size: xx-large;
     }
 }
+.promote-text-6 {
+    // color: steelblue;
+    line-height: 1;
+    @media (min-width: 992px) {
+        font-size: xxx-large;
+        // margin-top: 4rem;
+        // margin-bottom: 2rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: xx-large;
+        // margin-top: 2rem;
+        // margin-bottom: 1rem;
+    }
+}
 .border-text {
     // color: steelblue;
     @media (min-width: 992px) {
