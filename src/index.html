@@ -10,6 +10,26 @@
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <link rel="stylesheet" type="text/css" href="assets/css/hover-min.css">
   <link rel="stylesheet" type='text/css' href="assets/css/awsome/css/font-awesome.min.css">
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '746481429380633');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=746481429380633&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -24,6 +44,8 @@
 
   <!-- Initialize Firebase -->
   <script src="/__/firebase/init.js"></script>
+
+  
 </body>
 
 </html>
